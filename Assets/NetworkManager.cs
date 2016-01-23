@@ -14,7 +14,8 @@ public class NetworkManager : MonoBehaviour {
 	private bool USE_RANDOM_ID = true; // ピアIDを乱数で作る
 
 	// ブロードキャストアドレス設定
-	private const string broadcast_addr = "192.168.0.255";
+	// private const string broadcast_addr = "192.168.0.255";
+	private const string broadcast_addr = "10.0.255.255";
 	private const int PORT = 2002; // ポート
 
 	// ポートを分けるのはデバッグ用。１台のPCで２つ立ち上げて通信テストする際にポート番号をずらす
